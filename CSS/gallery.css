@@ -1,0 +1,241 @@
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Times New Roman;
+}
+
+
+.ul1{
+       font-family: Times New Roman;
+    padding-top: 15px;
+    padding-left: 105px;
+    float: left;
+}
+.ul1 li{
+     
+     font-size: 1.2em;
+     color: #DEB887;
+     list-style-type: none;
+     padding-top: 30px;
+     margin-left: 9%;
+
+    }
+
+
+
+    .ul1 li a{
+        width: 100%;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.8em;
+        color: #800000;
+        display: block;
+        
+    }
+
+   .ul1 li a:hover{
+    background-color: transparent;
+    color: white;
+   }
+   
+    .ul1 li ul li{
+        display: none;
+
+    }
+
+    .ul1 li ul li a{
+        font-size: 1em;
+    }
+
+    .ul1 li:hover ul li{
+        display: list-item;
+    }
+
+.ul11{
+    background:transparent;
+    border-style: none;
+    font-size: 1.0em;
+    font-family: Times new roman;
+
+}
+
+#list-icon{
+      
+
+        background-image: url("images/cam.jpg");
+        width: 100%;
+        height: 800px;
+        padding-left: 5px;
+        min-height: 40px;
+        font-family: Times New Roman;
+        background-size: cover;
+
+
+
+}
+
+.list-icon{
+    margin-left: 30%;
+    padding-top: 75px;
+}
+
+.list-icon li{
+    
+    float: left;
+    list-style-type: none;
+    font-size: 17px;
+    padding-left: 123px;
+    padding-top: 10px;
+    
+    
+}
+    
+.list-icon li a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #800000;
+
+
+}
+
+.list-icon li a:hover {
+    color: white;
+}
+
+
+.getstarted{
+    text-align: center;
+    background-color:#800000;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-style: none;
+    border-radius: 25px / 24px;
+}
+
+
+
+
+
+
+.row-column{
+ 
+     width: 100%;
+     height: 600px;
+    
+}
+
+
+
+.row-column-icon{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 85px;
+    width: 150px;
+    height: 250px;
+
+}
+
+
+
+
+.getstarted{
+    text-align: center;
+    background-color: #800000;
+    color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-style: none;
+    border-radius: 25px / 24px;
+}
+
+.getstarted:hover{
+    cursor: pointer;;
+    background-color: #000080;
+    color: white;
+} 
+
+.slides{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    width: 50%;
+    height: auto;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn2 {
+    background-color: #666;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1254px) {
+
+.list-icon{
+    display: none;
+}
+
+.ul1 li ul li{
+    display: block;
+    background-color: rgba(211,211,211,0.4);
+}
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    #list-icon{
+        background-position: center;
+    }
+}
