@@ -7,6 +7,11 @@ body{
 	font-family: Times New Roman;
 }
 
+[title~="Title"]
+{
+	font-family: Times New Roman;
+}
+
 
 .ul1{
 

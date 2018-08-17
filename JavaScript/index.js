@@ -5,10 +5,16 @@
             function changeText(){
          	document.getElementById("textchange").innerHTML = 'Lets Go ';
   
+
+
+
+        function telltime(){
+        	
+        }
            
           
         function myFunction() {
-    document.getElementById("d1").style.color = "red";
+        document.getElementById("d1").style.color = "red";
 }
 
            //document.write(new Date().getFullYear());
